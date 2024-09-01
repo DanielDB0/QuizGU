@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Primeira Tela*/
+#titleIndex{
+    text-align: center;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#FormIniciar{
+    padding-top: 5%;
+    text-align: center;
+}
+
+#Start{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#div-button{
+    background-color: gold;
+    margin-top: 3%;
+    width: 40%;
+    margin-left: 30%; 
+    margin-right: 30%;
+    height: 3.5rem;
+    border-radius: 20%;
+    overflow: hidden;
+}
+
+#ForName{
+    width: 60%;
+    height: 2rem;
+    font-size: 100%;
+}
+
+#ContainerIndex{
+    background-color: #a8aea4;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 3%;
+}
+
+.ImgFund{
+    width: 100%;
+}
+
+/*Segunda Tela*/
+#ContainerQuiz{
+    background-color: aquamarine;
+}
+
+#titleQuiz{
+    text-align: center;
+    padding: 5%;
+}
+
+#pergunta{
+    text-align: center;
+    font-size: 20px;
+    padding: 3%;
+}
+
+.line{
+    width: 100%;
+    display: flex;
+}
+
+.botao{
+    width: 41%;
+    margin: 6%;
+    text-align: center;
+    height: 10.5rem;
+}
+
+#botaoA{
+    background-color: rgb(255, 153, 153);
+}
+
+#botaoB{
+    background-color: rgb(160, 171, 255);    
+}
+
+#botaoC{
+    background-color: rgb(125, 255, 131);    
+}
+
+#botaoD{
+    background-color: rgb(255, 244, 149);  
+}
+
+.button{
+    background-color: transparent;
+    border: transparent;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.imgQ{
+    width: 100%;
+}
+
+/*Geral*/
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.rede{
+    text-align: center;
+    width: 15%;
+    margin-left: 5%;
+    background-color: white;
+    background: linear-gradient(to bottom, white, black);
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+#insta{
+    width: 100%;
+}
+
+.footerBlock{
+    display: flex;
+    margin-left: calc((100% - 15% - 10%)/2);
+}
+
+#Resultados{
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(242, 233, 174), rgb(129, 255, 234));;
+}
+
+#congratulacoes{
+    padding: 5%;
+}
+
+#Result{
+    padding: 3%;
+}
+
+#Restart{
+    padding: 3%;
+}
+
+.imgPessoa{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+body{
+    text-align: center;
+}
+
+#Mostrar{
+    background-color: rgb(129, 255, 234);
+}
